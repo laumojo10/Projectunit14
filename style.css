@@ -1,0 +1,267 @@
+body html{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* Color de fondo del menú */
+    height: 50px; /* Altura del menú */
+
+}
+.menu ul li  {
+    display: inline-block;
+    list-style: none;
+    color: #fff; /* Color del texto del menú */
+    font-family:'Hanken Grotesk', sans-serif; 
+    font-size: 50px;
+    padding: 10px 20px; /* Espaciado horizontal y vertical del enlace */
+    margin-left: 20px;
+}
+.menu a{
+    text-decoration: none;
+    margin-right:20px ;
+}
+
+.menu ul li a:hover {
+    background-color: #555; /* Color de fondo del enlace al pasar el cursor */
+}
+.image-container {
+    display: block; /* Para que las imágenes se muestren en una fila */
+    margin-top: 20px; 
+}
+
+  /* Estilos para las imágenes individuales */
+.image-container img {
+    display: flex; /* Para que las imágenes se muestren en una fila */
+    justify-content: center; /* Para centrar las imágenes horizontalmente */
+    align-content: center;
+    margin: 10px; /* Espacio entre las imágenes */
+    border: 1px solid #ccc; /* Bordes alrededor de las imágenes */
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+}
+
+.formularios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    color: rgb(255, 255, 255) ;
+    font-size: 50px;
+    font-family:'Hanken Grotesk', sans-serif; 
+    text-align: center;
+}
+
+.doctores{
+    margin: 20px 70px;
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+h2{
+    color:rgb(255, 255, 255) ;
+    font-size: 30px;
+    font-family:'Hanken Grotesk', sans-serif; 
+}
+
+.doctor__name{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+label{
+    display: block;
+    margin: 12px 0;
+}
+input{
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    border: 1px solid;
+    vertical-align: middle;
+    margin: 5px 0;
+    padding:0;
+    border:1px solid;
+    box-sizing:border-box;
+}
+select{
+    width: 300px;
+    height: 30px;
+}
+
+.doctor__last-name{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+}
+.doctor__list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;   
+}
+.doctor__consulting_room{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;  
+}
+
+.doctor__email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;  
+}
+.doctor__button{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+.doctor__button button{
+    background-color: rgb(195, 232, 195);
+    width: 90px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+.Pacientes{
+    margin: 20px 70px;
+    font-weight: bold;
+    margin-top: 50px ;
+}
+.patient__name{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+}
+.patient__lastname{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+}
+
+.patient__id{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+}
+.patient__age{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+}
+.patient__phone{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+}
+.patient__list{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 16px;   
+}
+.patient__button{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+
+    
+}
+.patient__button button{
+    background-color:rgb(195, 232, 195);
+    width: 90px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.medical__appointments{
+    margin: 20px 70px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.medical__id{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+}
+.medical__list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+}
+.medical__doctor{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+}
+.medical__patient{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+}
+
+.medical__button{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start; 
+    
+}
+.medical__button button{
+    margin-top: 20px;
+    background-color: rgb(173, 216, 230);
+    width: 90px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 125px;
+    
+}
+h1.medicas {
+    text-align: center;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-bottom: 20px;
+    color: #333;
+}
+table {
+        width: 100%;
+        border-collapse: collapse;
+}
+
+th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}

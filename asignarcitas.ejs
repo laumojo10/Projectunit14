@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!---redenrización de compatibilidad -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!---visualizaciones en diferentes dispositivos -->
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <title>Formulario Cita</title>
+    </head>
+    <body style="background:linear-gradient(to bottom, hsl(252, 39%, 64%),  hsl(242, 50%, 44%));height: 900.833px;">
+        <h1>Asignación Cita Medica </h1>
+        <section class="formularios">
+            <div class="medical__appointments">
+                <h2>Formulario citas medicas</h2>
+                <form id="citas-form"action="/validar" method="post">
+                    <div class="medical__id">
+                        <label for="cedu">Cedula del paciente</label>
+                        <input type="text" id="cedula" name="cedula" maxlength="12">
+                    </div>
+                    <div class="medical__list">
+                        <label for="list">Especialidades</label>
+                        <select id="especialidad" name="especialidad">
+                            <option value="Seleccione">Seleccione la especialidad</option>
+                            <option value="Medicina General">Medicina general</option>
+                            <option value="Cardiología">Cardiología</option>
+                            <option value="Medicina Interna">Medicina interna</option> 
+                            <option value="Dermatología">Dermatología</option>
+                            <option value="Rehabilitación Física">Rehabilitación física</option>
+                            <option value="Psicología">Psicología</option>
+                            <option value="Odontología">Odontología</option>
+                            <option value="Radiología">Radiología</option>   
+                        </select>
+                    </div>
+                    <div class="medical__doctor">
+                        <label for="doctor">Doctor:</label>
+                        <input type="text" id="doctor" name="doctor" required>
+                    </div>
+                    <div class="mecial__patient">
+                        <label for="paciente">Paciente:</label>
+                        <input type="text" id="paciente" name="paciente" required>
+                    </div>
+                    <div class="medical__button">
+                        <button type="submit" value="Asignar"><Span style="font-weight: bold;">Asignar cita</Span></button>
+                    </div>
+                </form>
+            </div>
+        </section>    
+        
+    </body>
+</html>
